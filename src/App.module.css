@@ -1,0 +1,51 @@
+.ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  height: 100vh;
+  background-color: #f0f0f0; /* Color de fondo opcional */
+}
+
+.caja {
+  background-color: white;
+  width: 100%;            /* Ocupa el 100% del alto de la ventana */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;       /* Centrar el texto y los elementos dentro del contenedor */
+}
+
+.titulo {
+  font-family: 'montserrat', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
+}
+
+@media screen and (max-width: 750px) {
+
+  .ul{
+    margin-left: -40px;
+  }
+  
+  .li{
+    width: 500px; 
+  }
+
+}
+
+@media screen and (max-width: 502px) {
+  .ul{
+    margin-left: -20px;
+  }
+
+}
+
+

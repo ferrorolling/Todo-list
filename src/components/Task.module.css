@@ -1,0 +1,72 @@
+
+  .li{
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'montserrat';
+    font-weight: bold;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(202, 216, 221);
+    width: 80vh;
+    margin-top: 2px;
+  }
+
+  li > div > button {
+    height: 40px;
+    margin-left: 2px;
+    border-radius: 5px;
+    width: 60px;
+    background-color: rgb(204, 36, 36);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'montserrat';
+  }
+
+  li > div > button:hover {
+    background-color: rgb(179, 32, 32);
+  }
+
+  li > div > button:active {
+    transform: translateY(1px);
+  }
+ 
+  li > div {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  @media screen and (max-width: 750px) {
+
+    .li{
+      width: 500px; 
+    }
+
+}
+
+@media screen and (max-width: 502px) {
+    
+  .li{
+    width: 300px; 
+    font-size: 12px;
+  }
+
+  li > div > button {
+    height: 40px;
+    margin-left: 2px;
+    border-radius: 5px;
+    width: 35px;
+    font-size: 15px;
+    
+  }
+
+  li > div {
+    display: flex;
+    justify-content: center;
+  }
+
+}

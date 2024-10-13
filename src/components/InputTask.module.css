@@ -1,0 +1,47 @@
+input {
+    padding-left: 10px;
+    font-family: 'montserrat';
+    font-size: 15px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border : solid grey 1px;
+    margin-right: 5px;
+  }
+  
+  input:focus {
+      border-bottom: 3px solid rgb(34, 135, 230);
+      outline: none;          /* Elimina el borde de enfoque predeterminado */
+    }
+  
+    .enter {
+      height: 30px;
+      width: 70px;
+      background-color:  rgb(106, 155, 201);
+      border: none;
+      border-radius: 5px;
+      color:white;
+      font-family: 'montserrat';
+      font-weight: bold;  
+    }
+    .enter:hover {
+      background-color:  rgb(42, 90, 134);
+    
+    }
+  
+    .enter:active {
+      transform: translateY(1px);
+    }
+  
+  
+    @media screen and (max-width: 512px) {
+      .enter{
+        width: 250px;
+        margin-top: 2px;
+      }
+
+    input {
+        width: 250px;
+      }
+
+    }
