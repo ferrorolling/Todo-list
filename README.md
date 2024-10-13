@@ -1,6 +1,6 @@
 # Todo-list
 
-I made this to-do list using local storage to gain a simple understanding of how communication between components, custom hooks, and CSS modules work.
+I made this to-do list with React and Vite using local storage to gain a simple understanding of how communication between components, custom hooks, and CSS modules work.
 
 You can view the project at the following link .[Todo-list](https://todo-list-eta-olive-16.vercel.app/).
 
