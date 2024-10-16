@@ -1,8 +1,8 @@
-# React + Vite
+# Todo-list
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I made this to-do list with React and Vite using local storage to gain a simple understanding of how communication between components, custom hooks, and CSS modules work.
 
-Currently, two official plugins are available:
+You can view the project at the following link .[Todo-list](https://todo-list-eta-olive-16.vercel.app/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://github.com/user-attachments/assets/7ba504b3-d478-47af-a484-38141105b2df" alt="desktop-design" width="900" />
+
