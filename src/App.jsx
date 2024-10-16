@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <div className={styles.caja}>
-      <h1 className={styles.titulo}>Todo List</h1>
+      <h1 className={styles.titulo}>Todo list</h1>
   
       <Search tareas = {tareas} />
         <ul className={styles.ul}>
